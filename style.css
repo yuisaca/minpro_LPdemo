@@ -1,0 +1,139 @@
+@charset "UTF-8";
+body,
+html {
+   padding: 0;
+   margin: 0;
+}
+
+.navbar-fixed {
+   background-color: #000;
+}
+
+.wrapper {
+ background-image: url(img/minpro_bg.jpg);
+ background-size: contain;
+ background-repeat: repeat-y;
+ max-width: 900px;
+ margin: 0 auto;
+}
+
+img {
+   max-width: 100%;
+   display: block;
+}
+
+.twi-btn {
+   position: absolute;
+   bottom: 35%;
+   max-width: 92%;
+   left: 0;
+   right: 0;
+   margin: auto;
+}
+
+.fv {
+   position: relative;
+   top: 0px;
+}
+
+.fv .btn {
+   position: absolute;
+   left: 0;
+   right: 0;
+   bottom: 12%;
+}
+
+.image2 {
+   margin-top: 0px;
+}
+
+.image4 {
+   position: relative;
+}
+
+.image4 .btn {
+   position: absolute;
+   left: 0;
+   right: 0;
+   bottom: 48%;
+} 
+
+.twi-image-adjust {
+   margin: 4% auto;
+   width: 90%;
+ }
+
+.image5 {
+   position: relative;
+}
+
+.image5 .btn {
+   position: absolute;
+   left: 0;
+   right: 0;
+   bottom: 6.1%;
+}
+
+.twi-btn2 {
+   margin: 2% auto;
+   width: 90%;
+}
+
+.image6 {
+   position: relative;
+   margin-top: 70px;
+   height: 30px;
+}
+
+.image6 .document {
+   position: absolute;
+   padding: 8%;
+   background-color: #e3e2e2;
+   left: 0;
+   right: 0;
+   top: 0;
+   font-family: ryo-gothic-plusn, sans-serif;
+   color: #000;
+}
+
+.image6 .document h3 {
+   line-height: 1.5;
+   font-size: 27px;
+   text-align: center;
+   margin-bottom: 50px;
+}
+
+.image6 .document p {
+   line-height: 1.9;
+   font-size: 24px;
+   margin-bottom: 26px;
+   letter-spacing: 0.15rem;
+   font-weight: 500;
+}
+
+.image6 .document .content {
+    max-height: 310px;
+    margin: auto;
+    overflow-y:  auto;
+}
+
+/* モバイル版  */
+@media screen and (max-width:500px) {
+   .image6 .document .content {
+      max-height: 190px;
+   }
+}
+
+@media screen and (max-width:500px) {
+   .image6 .document h3 {
+      font-size:  4.3vw;
+   }
+
+   .image6 .document p {
+      font-size:  3.6vw;
+   }
+
+   .image6 .document .content {
+      max-height:  168px;
+   }
+}
