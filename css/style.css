@@ -29,6 +29,7 @@ html {
  background-repeat: repeat-y;
  max-width: 900px;
  margin: 0 auto;
+ padding-bottom: 30px;
 }
 
 img {
@@ -98,6 +99,7 @@ img {
    padding: 8%;
    background-color: #e3e2e2;
    margin-top: 70px;
+   margin-bottom: 100px;
    left: 0;
    right: 0;
    top: 0;
