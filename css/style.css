@@ -5,12 +5,26 @@ html {
    margin: 0;
 }
 
+.navbar {
+   background-color: #000;
+   height: 80px;
+}
+
 .navbar-fixed {
    background-color: #000;
 }
 
+.logo {
+   width: 15%;
+   padding: 30px;
+}
+
+.logo :hover {
+   fill: rgba(255, 255, 255, .5);
+}
+
 .wrapper {
- background-image: url(img/minpro_bg.jpg);
+ background-image: url(../img/minpro_bg.jpg);
  background-size: contain;
  background-repeat: repeat-y;
  max-width: 900px;
@@ -79,16 +93,11 @@ img {
    width: 90%;
 }
 
-.image6 {
+.document {
    position: relative;
-   margin-top: 70px;
-   height: 30px;
-}
-
-.image6 .document {
-   position: absolute;
    padding: 8%;
    background-color: #e3e2e2;
+   margin-top: 70px;
    left: 0;
    right: 0;
    top: 0;
@@ -96,14 +105,14 @@ img {
    color: #000;
 }
 
-.image6 .document h3 {
+.document h3 {
    line-height: 1.5;
    font-size: 27px;
    text-align: center;
    margin-bottom: 50px;
 }
 
-.image6 .document p {
+.document p {
    line-height: 1.9;
    font-size: 24px;
    margin-bottom: 26px;
@@ -111,7 +120,7 @@ img {
    font-weight: 500;
 }
 
-.image6 .document .content {
+.document .content {
     max-height: 310px;
     margin: auto;
     overflow-y:  auto;
@@ -119,21 +128,36 @@ img {
 
 /* モバイル版  */
 @media screen and (max-width:500px) {
-   .image6 .document .content {
+   .document .content {
       max-height: 190px;
    }
 }
 
 @media screen and (max-width:500px) {
-   .image6 .document h3 {
+   .document h3 {
       font-size:  4.3vw;
    }
 
-   .image6 .document p {
+  .document p {
       font-size:  3.6vw;
    }
 
-   .image6 .document .content {
+   .document .content {
       max-height:  168px;
    }
+}
+
+footer {
+   background-color: #000;
+   width: 100%;
+   height: 100px;
+   text-align: center;
+   padding: 50px 0;
+   left: 0;
+   bottom: 0;
+   font-size: 0.75rem;
+}
+
+footer p {
+   color: #fff;
 }
